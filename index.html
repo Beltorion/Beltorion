@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <nav id="navBar">
+        <div class="container">
+
+            <div>
+                <a class="logo" href="index.html#"><img src="/myFirstWebsite\assets\aperture.svg" width="48px"
+                        alt="logo" />
+            </div>
+
+            <div class="menu">
+                <a href="index.html#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Me</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+    </div>
+    <section>
+        <h1>Gazsi Viktor</h1>
+        <p class="headline">Fullstack software developer</p>
+        <p>I love to design beautiful yet simple websites. I believe sometimes the less is more. The past years taught
+            me how to present complex content in an easily comprehensible way and how to make something out of nothing.
+            This is creativity, this is art.</p>
+        <p>Currently I am improving my programming skill to solve even more complex problems and give more functionality
+            for my websites.</p>
+    </section>
+    <div class="divider">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+
+    </div>
+    <section>
+        <h2>Technology Wiki</h2>
+        <h3>Számítógép</h3>
+        <p>Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több bináris
+            bemeneten és produkál egy bináris kimenetet.</p>
+        <h3>ASCII</h3>
+        <p>As angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat értik, így a
+            'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.</p>
+        <h3>RAM</h3>
+        <p>Egy véletlen elérésű írható–olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó programokat és a
+            feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága független az elhelyezkedésétől.</p>
+        <h3>Programozási nyelv</h3>
+        <p>A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások sorozata, amivel
+            közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a számítógéppel egy adott feladat
+            elvégzésének módját.</p>
+        <h3>Domain Name System (DNS)</h3>
+        <p>Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások, illetve az
+            internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.</p>
+        <h3>Hyper Text Transfer Protocol (HTTP)</h3>
+        <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A World Wide
+            Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és mozgatására.</p>
+    </section>
+    <footer>
+        <div class="footerContainer">
+
+            designed by: <a class="footerLink" href="https://viktorgazsi.com" target="_blank">viktorgazsi.com</a>
+        </div>
+    </footer>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navBar");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

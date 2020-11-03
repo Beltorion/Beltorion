@@ -1,0 +1,252 @@
+body {
+    font-family: "Roboto";
+    font-size: 1em;
+    color: #333;
+    background-image: url("assets/topography.png");
+    background-color: #cccccc;
+  }
+
+  nav{
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .container {
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+.logo{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    
+}
+
+.logo:hover {
+    background-color: rgba(253, 253, 253, 0);  
+}
+a {
+float: left;
+  color: #ff0099;
+  text-align: center;
+  padding: 24px ;
+  text-decoration: none;
+  font-size: 1.3em;
+  text-transform: uppercase;}
+
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+.icon{
+    display: none;
+}
+
+  
+  h1{
+    font-family: "Montserrat";
+    font-size: 4em;
+    text-align: left;
+    margin-bottom: 80px;
+    font-weight: 700;
+  }
+h2{
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 0px;
+}
+.headline{
+    font-size: 3em;
+    color: #ff0099;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+  section{
+      max-width: 680px ;
+      margin: auto;
+      padding: 60px 0px 40px 0px;
+  }
+  h3{
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      margin-top: 32px;
+      line-height: 1.4em;
+  }
+p{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    line-height: 1.4em;
+}
+.divider {
+    
+    width: 10%;
+    margin: auto;
+  }
+
+  .line {
+border-top: 3px solid;
+padding: 0px 4px;
+margin: 0px 4px;
+display: inline-block;
+  }
+
+footer {
+    padding: 20px 0px;
+    background-color: slategrey;
+    font-size: 1.4em;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.footerContainer{
+    width: 980px;
+    margin: auto;
+}
+.footerLink {
+font-size: 1em;
+color: whitesmoke;
+text-transform: none;
+float: none;
+padding: 0px 0px 0px 8px;
+
+}
+
+.footerLink:hover{
+    background-color: slategrey;
+    color:  #ff0099;
+  }
+
+  
+@media screen and (max-width: 992px) {
+    
+    .container {
+        width: 990px;
+        
+  }
+  section{
+    max-width: auto ;
+    padding: 0px 2%;
+    
+}
+
+h1{
+    
+    font-size: 4em;
+    margin-bottom: 40px;
+    
+  }
+h2{
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+.headline{
+    font-size: 3em;
+    margin-bottom: 20px;
+
+}
+footer{
+    margin-top: 40px;
+}
+
+.footerContainer{
+    width: auto;
+    
+}
+
+}
+
+  
+  
+  @media screen and (max-width: 767px) {
+    body {
+     font-size: 0.8em;
+    }
+
+    .headline{
+        font-size: 3em;
+        margin-bottom: 20px;
+        line-height: 1.2em;
+    
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+          
+    .menu a.icon {
+      float: right;
+      display: block;
+    }
+
+    .menu a:not(:last-child) {display: none;}
+    .menu a.icon {
+      display: block;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+
+    .container {
+        width: 600px;
+        justify-content: flex-start;
+        padding: 8px 0px;
+
+    }
+
+  }
+
+  @media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+
+    .menu.responsive .logo {
+        position: absolute;
+        left: 4px;
+        top: -4px;
+
+    }
+    .menu.responsive a {
+      
+    float: none;
+      display: block;
+      text-align: left;
+      padding: 16px 20px;
+    }
+  }
+  .menu.responsive a:nth-child(2) {
+    margin-top: 80px;
+}
+
+  /* @media screen and (max-width: 600px) {
+    .menu a:not(:first-child) {display: none;}
+    .menu a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .menu.responsive {position: relative;}
+    .menu.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .menu.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    } */
